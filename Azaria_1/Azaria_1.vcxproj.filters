@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Game">
+      <UniqueIdentifier>{81988b5b-ab7b-4e25-b9f4-4747d0781f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\States">
+      <UniqueIdentifier>{5328f667-5eb7-4abf-9335-1992867f5e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GraphicSettings">
+      <UniqueIdentifier>{842b9b3f-9625-4c58-ba86-842b3f9a72eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\States\EditorModes">
+      <UniqueIdentifier>{c0b21bf1-d177-4572-8141-25f8218ef372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Math">
+      <UniqueIdentifier>{0f4bb4f4-0005-4cd9-b87d-70e381503eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Map">
+      <UniqueIdentifier>{5099602f-f5aa-4dd5-8467-e260e77cec8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Map\Tile">
+      <UniqueIdentifier>{fb51cd4f-410e-4ff1-a6a9-30fb755b788b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Item">
+      <UniqueIdentifier>{83a3508a-4d97-49a5-b834-a0e0c2e6b7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Item\Armors">
+      <UniqueIdentifier>{e8f31267-8371-43b1-b60e-e8924ff8ab6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Item\Weapons">
+      <UniqueIdentifier>{4e792b05-55f1-4250-abd3-c47bd097df93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Item\Weapons\MeleeWeapon">
+      <UniqueIdentifier>{983eb115-7680-40a5-a0c1-f222ee23378f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Item\Weapons\RangedWeapon">
+      <UniqueIdentifier>{155c14d1-afff-4313-8c46-b0c05ba34744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Item\Other">
+      <UniqueIdentifier>{e9ce9fe1-3ad5-4c0b-9abf-e9bcaf9cd65b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GUI">
+      <UniqueIdentifier>{aba7f5f1-d25d-48e4-8b80-02f160062945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Entities">
+      <UniqueIdentifier>{c28a07cd-6552-41dc-959f-48c256d687cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Entities\Enemies">
+      <UniqueIdentifier>{9cb77515-4879-4ef6-a8dd-6503d23fb962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Components">
+      <UniqueIdentifier>{dc82d23f-1864-4d98-9c09-5b76eaac0087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\AI">
+      <UniqueIdentifier>{a1c43f78-afe5-4b95-affc-4c512895a5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\AI\Follow">
+      <UniqueIdentifier>{a5808381-72aa-46de-a4b7-4d9261f8fb1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\AI\Options">
+      <UniqueIdentifier>{49c0b9ef-7dac-4bcb-ad40-cff291f7d129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Systems">
+      <UniqueIdentifier>{5ca8fa2f-3d0a-4fce-8a42-bba1fb7ea4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Objects">
+      <UniqueIdentifier>{7d6897a3-2fe7-4c78-af07-7c9189ce3635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Objects\Teleport">
+      <UniqueIdentifier>{7e13df96-1f2f-414c-be19-b66bfd9302bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Objects\Coin">
+      <UniqueIdentifier>{ae431bf2-186b-4e46-81fe-9cdc644b97fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Objects\Dealer">
+      <UniqueIdentifier>{99e3deba-5c02-4106-80bf-1d43601ead23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Shop">
+      <UniqueIdentifier>{f34f209a-a3d9-4f40-bb69-b1dcbd4a4edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Objects\Flame">
+      <UniqueIdentifier>{59edbd93-454d-4e3c-8188-fd79d3f8210c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Objects\FireShot">
+      <UniqueIdentifier>{9531b369-7a99-4b18-97d3-e80bbca0f9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Objects\AimDirection">
+      <UniqueIdentifier>{21cca69e-cd6d-4648-88a1-5c3078f753e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelsState.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicSettings.cpp">
+      <Filter>Исходные файлы\GraphicSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsState.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorState.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcadaState.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorMode.cpp">
+      <Filter>Исходные файлы\States\EditorModes</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultEditorMode.cpp">
+      <Filter>Исходные файлы\States\EditorModes</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyEditorMode.cpp">
+      <Filter>Исходные файлы\States\EditorModes</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorMath.cpp">
+      <Filter>Исходные файлы\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Исходные файлы\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Исходные файлы\Map\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="RegularTile.cpp">
+      <Filter>Исходные файлы\Map\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySpawnerTile.cpp">
+      <Filter>Исходные файлы\Map\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Исходные файлы\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Исходные файлы\Item\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="RangedWeapon.cpp">
+      <Filter>Исходные файлы\Item\Weapons\RangedWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Bow.cpp">
+      <Filter>Исходные файлы\Item\Weapons\RangedWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeWeapon.cpp">
+      <Filter>Исходные файлы\Item\Weapons\MeleeWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>Исходные файлы\Item\Weapons\MeleeWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGUI.cpp">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Исходные файлы\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySystem.cpp">
+      <Filter>Исходные файлы\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>Исходные файлы\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Rat.cpp">
+      <Filter>Исходные файлы\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Spider.cpp">
+      <Filter>Исходные файлы\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="AIComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributesComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="HitboxComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AIFollow.cpp">
+      <Filter>Исходные файлы\AI\Follow</Filter>
+    </ClCompile>
+    <ClCompile Include="AIOption.cpp">
+      <Filter>Исходные файлы\AI\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTagSystem.cpp">
+      <Filter>Исходные файлы\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Chest.cpp">
+      <Filter>Исходные файлы\Item\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Blob.cpp">
+      <Filter>Исходные файлы\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Teleport.cpp">
+      <Filter>Исходные файлы\Objects\Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Исходные файлы\Objects\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="Dealer.cpp">
+      <Filter>Исходные файлы\Objects\Dealer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Исходные файлы\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="Flame.cpp">
+      <Filter>Исходные файлы\Objects\Flame</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordStates.cpp">
+      <Filter>Исходные файлы\Item\Weapons\MeleeWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="FireShot.cpp">
+      <Filter>Исходные файлы\Objects\FireShot</Filter>
+    </ClCompile>
+    <ClCompile Include="Swordsmen.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="AimDirection.cpp">
+      <Filter>Исходные файлы\Objects\AimDirection</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Исходные файлы\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Исходные файлы\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Исходные файлы\States</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelsState.h">
+      <Filter>Исходные файлы\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicSettings.h">
+      <Filter>Исходные файлы\GraphicSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsState.h">
+      <Filter>Исходные файлы\States</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorState.h">
+      <Filter>Исходные файлы\States</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcadaState.h">
+      <Filter>Исходные файлы\States</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorMode.h">
+      <Filter>Исходные файлы\States\EditorModes</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorModes.h">
+      <Filter>Исходные файлы\States\EditorModes</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultEditorMode.h">
+      <Filter>Исходные файлы\States\EditorModes</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyEditorMode.h">
+      <Filter>Исходные файлы\States\EditorModes</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorMath.h">
+      <Filter>Исходные файлы\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Исходные файлы\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Исходные файлы\Map\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="RegularTile.h">
+      <Filter>Исходные файлы\Map\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpawnerTile.h">
+      <Filter>Исходные файлы\Map\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Исходные файлы\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Исходные файлы\Item\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="RangedWeapon.h">
+      <Filter>Исходные файлы\Item\Weapons\RangedWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Bow.h">
+      <Filter>Исходные файлы\Item\Weapons\RangedWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeWeapon.h">
+      <Filter>Исходные файлы\Item\Weapons\MeleeWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Исходные файлы\Item\Weapons\MeleeWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGUI.h">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Исходные файлы\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySystem.h">
+      <Filter>Исходные файлы\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>Исходные файлы\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Rat.h">
+      <Filter>Исходные файлы\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>Исходные файлы\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemies.h">
+      <Filter>Исходные файлы\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="AIComponent.h">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributesComponent.h">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="HitboxComponent.h">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponent.h">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillComponent.h">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AIFollow.h">
+      <Filter>Исходные файлы\AI\Follow</Filter>
+    </ClInclude>
+    <ClInclude Include="AIOption.h">
+      <Filter>Исходные файлы\AI\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTagSystem.h">
+      <Filter>Исходные файлы\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Chest.h">
+      <Filter>Исходные файлы\Item\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Blob.h">
+      <Filter>Исходные файлы\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Teleport.h">
+      <Filter>Исходные файлы\Objects\Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Исходные файлы\Objects\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="Dealer.h">
+      <Filter>Исходные файлы\Objects\Dealer</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects.h">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Исходные файлы\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="Flame.h">
+      <Filter>Исходные файлы\Objects\Flame</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordStates.h">
+      <Filter>Исходные файлы\Item\Weapons\MeleeWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="FireShot.h">
+      <Filter>Исходные файлы\Objects\FireShot</Filter>
+    </ClInclude>
+    <ClInclude Include="Swordsmen.h">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="AimDirection.h">
+      <Filter>Исходные файлы\Objects\AimDirection</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex_shader.vert">
+      <Filter>Исходные файлы\GraphicSettings</Filter>
+    </None>
+    <None Include="fragment_shader.frag">
+      <Filter>Исходные файлы\GraphicSettings</Filter>
+    </None>
+  </ItemGroup>
+</Project>
