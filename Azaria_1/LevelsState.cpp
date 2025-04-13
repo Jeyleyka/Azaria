@@ -470,7 +470,6 @@ void LevelsState::UpdatePauseMenuButtons()
 		if (record.is_open())
 		{
 			record << recordLevel;
-			//std::cout << "Record level is " << recordLevel << "\n";
 		}
 
 		record.close();

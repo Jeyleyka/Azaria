@@ -25,11 +25,4 @@ void AIFollow::Update(const float& dt)
 
 	if (self.GetPosition().x != entity.GetPosition().x && isMoving)
 		self.Move(moveVec.x, moveVec.y, dt);
-
-	//if (self.GetGlobalBounds().intersects(sf::FloatRect(obstaclePosition, obstacleSize))) {
-	//	isMoving = false;
-	//}
-	//else {
-	//	isMoving = true;
-	//}
 }
